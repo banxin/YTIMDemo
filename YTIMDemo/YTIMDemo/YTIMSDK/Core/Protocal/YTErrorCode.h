@@ -1,0 +1,57 @@
+//
+//  YTErrorCode.h
+//  YTIMDemo
+//
+//  Created by yanl on 2018/2/2.
+//  Copyright © 2018年 yanl. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#ifndef YTErrorCode_h
+#define YTErrorCode_h
+
+/*
+ 错误码常量表
+ */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - 客户端本地使用地一些通用编码约定
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*! 一切正常 */
+static CGFloat const COMMON_CODE_OK = 0;
+/*! 客户端尚未登陆 */
+static CGFloat const COMMON_NO_LOGIN = 1;
+/*! 未知错误 */
+static CGFloat const COMMON_UNKNOW_ERROR = 2;
+/*! 数据发送失败 */
+static CGFloat const COMMON_DATA_SEND_FAILD = 3;
+/*! 无效的 {@link Protocal}对象 */
+static CGFloat const COMMON_INVALID_PROTOCAL = 4;
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - 由客户端产生的错误码
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*! 与服务端的连接已断开 */
+static CGFloat const ForC_BREOKEN_CONNECT_TO_SERVER = 201;
+/*! 与服务端的网络连接失败 */
+static CGFloat const ForC_BAD_CONNECT_TO_SERVER = 202;
+/*! 客户端SDK尚未初始化 */
+static CGFloat const ForC_CLIENT_SDK_NO_INITIALED = 203;
+/*! 本地网络不可用（未打开） */
+static CGFloat const ForC_LOCAL_NETWORK_NOT_WORKING = 204;
+/*! 要连接的服务端网络参数未设置 */
+static CGFloat const ForC_TO_SERVER_NET_INFO_NOT_SETUP = 205;
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark - 由服务端产生的错误码
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*! 客户端尚未登陆，请重新登陆 */
+static CGFloat const ForS_RESPONSE_FOR_UNLOGIN = 301;
+
+#endif /* YTErrorCode_h */

@@ -1,0 +1,15 @@
+
+platform :ios, '8.0'
+target 'YTIMDemo' do
+
+  pod 'IQKeyboardManager',                  '5.0.3'
+  pod 'MBProgressHUD',                      '1.0.0'
+  pod 'Masonry',                            '1.1.0'
+  pod 'ReactiveObjC'
+  pod 'SDWebImage',                         '4.1.2'
+  pod 'YYKit',                              '1.0.9'
+
+  pod 'TZImagePickerController'
+  pod 'FMDB'
+
+end

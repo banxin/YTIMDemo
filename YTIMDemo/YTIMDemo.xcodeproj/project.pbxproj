@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91F2FB520243D3A0084EE82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FB420243D3A0084EE82 /* AppDelegate.m */; };
+		A91F2FBD20243D3A0084EE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FBC20243D3A0084EE82 /* Assets.xcassets */; };
+		A91F2FC020243D3A0084EE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FBE20243D3A0084EE82 /* LaunchScreen.storyboard */; };
+		A91F2FC320243D3A0084EE82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FC220243D3A0084EE82 /* main.m */; };
+		A91F2FCD20243D3A0084EE82 /* YTIMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FCC20243D3A0084EE82 /* YTIMDemoTests.m */; };
+		A91F2FD820243D3A0084EE82 /* YTIMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FD720243D3A0084EE82 /* YTIMDemoUITests.m */; };
+		A91F2FF220243E4A0084EE82 /* qzone_mark_img_myvoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FE720243E4A0084EE82 /* qzone_mark_img_myvoice@2x.png */; };
+		A91F2FF320243E4A0084EE82 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FE820243E4A0084EE82 /* info@2x.png */; };
+		A91F2FF420243E4A0084EE82 /* copyright_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FE920243E4A0084EE82 /* copyright_img@2x.png */; };
+		A91F2FF520243E4A0084EE82 /* gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FEA20243E4A0084EE82 /* gray@2x.png */; };
+		A91F2FF620243E4A0084EE82 /* srart_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FEB20243E4A0084EE82 /* srart_bg.jpg */; };
+		A91F2FF720243E4A0084EE82 /* green_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FEC20243E4A0084EE82 /* green_light@2x.png */; };
+		A91F2FF820243E4A0084EE82 /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FED20243E4A0084EE82 /* green@2x.png */; };
+		A91F2FF920243E4A0084EE82 /* logo_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FEE20243E4A0084EE82 /* logo_img@2x.png */; };
+		A91F2FFA20243E4A0084EE82 /* dashed_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A91F2FEF20243E4A0084EE82 /* dashed_line.png */; };
+		A91F2FFD202442770084EE82 /* YTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FFC202442770084EE82 /* YTMainViewController.m */; };
+		A91F3000202443C10084EE82 /* YTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F2FFF202443C10084EE82 /* YTBaseViewController.m */; };
+		A91F3005202459A60084EE82 /* UIViewController+YTHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F3004202459A60084EE82 /* UIViewController+YTHUD.m */; };
+		A91F300B20245B810084EE82 /* YTIMClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F300A20245B810084EE82 /* YTIMClientManager.m */; };
+		A91F302220245EA50084EE82 /* RMMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F301420245EA50084EE82 /* RMMapper.m */; };
+		A91F302320245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F301820245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.m */; };
+		A91F302420245EA50084EE82 /* NSObject+RMArchivable.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F301A20245EA50084EE82 /* NSObject+RMArchivable.m */; };
+		A91F302520245EA50084EE82 /* NSObject+RMCopyable.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F301B20245EA50084EE82 /* NSObject+RMCopyable.m */; };
+		A91F302620245EA50084EE82 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F301D20245EA50084EE82 /* GCDAsyncUdpSocket.m */; };
+		A91F302720245EA50084EE82 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F302020245EA50084EE82 /* Reachability.m */; };
+		A91F302A20245ED40084EE82 /* YTConfigEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F302920245ED40084EE82 /* YTConfigEntity.m */; };
+		A91F302D2024627D0084EE82 /* YTUDPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F302C2024627D0084EE82 /* YTUDPUtils.m */; };
+		A91F30302024642A0084EE82 /* YTCharsetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F302F2024642A0084EE82 /* YTCharsetHelper.m */; };
+		A91F3033202465210084EE82 /* YTToolKits.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F3032202465210084EE82 /* YTToolKits.m */; };
+		A91F303C202466C40084EE82 /* NSMutableDictionary+YTExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F303B202466C40084EE82 /* NSMutableDictionary+YTExt.m */; };
+		A91F304720246FB90084EE82 /* YTPLoginInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F304620246FB90084EE82 /* YTPLoginInfoResponse.m */; };
+		A91F304A202470020084EE82 /* YTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F3049202470020084EE82 /* YTPErrorResponse.m */; };
+		A91F304D202470680084EE82 /* YTPLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F304C202470680084EE82 /* YTPLoginInfo.m */; };
+		A91F3050202470930084EE82 /* YTProtocal.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F304F202470930084EE82 /* YTProtocal.m */; };
+		A91F30532027F8780084EE82 /* YTProtocalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30522027F8780084EE82 /* YTProtocalFactory.m */; };
+		A91F30562027FD030084EE82 /* YTLocalUDPSocketProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30552027FD030084EE82 /* YTLocalUDPSocketProvider.m */; };
+		A91F305920280A760084EE82 /* YTClientCoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F305820280A760084EE82 /* YTClientCoreSDK.m */; };
+		A91F305C20280CE20084EE82 /* YTLocalUDPDataReciever.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F305B20280CE20084EE82 /* YTLocalUDPDataReciever.m */; };
+		A91F305F20282E240084EE82 /* YTAutoReLoginDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F305E20282E240084EE82 /* YTAutoReLoginDaemon.m */; };
+		A91F306220282E840084EE82 /* YTLocalUDPDataSender.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F306120282E840084EE82 /* YTLocalUDPDataSender.m */; };
+		A91F3066202833E60084EE82 /* YTChatBaseEventImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F3065202833E60084EE82 /* YTChatBaseEventImpl.m */; };
+		A91F30692028347A0084EE82 /* YTChatTransDataEventImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F30682028347A0084EE82 /* YTChatTransDataEventImpl.m */; };
+		A91F306D202840170084EE82 /* YTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F306C202840170084EE82 /* YTLoginViewController.m */; };
+		A91F307020284B660084EE82 /* YTChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F306F20284B660084EE82 /* YTChatModel.m */; };
+		A91F307320284B8C0084EE82 /* YTChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F307220284B8C0084EE82 /* YTChatCell.m */; };
+		AB19651552FECAE8F6E33F85 /* libPods-YTIMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFF338080BFDCE5806511E3 /* libPods-YTIMDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91F2FC920243D3A0084EE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91F2FA820243D3A0084EE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91F2FAF20243D3A0084EE82;
+			remoteInfo = YTIMDemo;
+		};
+		A91F2FD420243D3A0084EE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91F2FA820243D3A0084EE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91F2FAF20243D3A0084EE82;
+			remoteInfo = YTIMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241CDC77B9A1E7A504C01554 /* Pods-YTIMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTIMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTIMDemo/Pods-YTIMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		78884D1F94EC816A2986682F /* Pods-YTIMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTIMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTIMDemo/Pods-YTIMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A91F2FB020243D3A0084EE82 /* YTIMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTIMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F2FB320243D3A0084EE82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A91F2FB420243D3A0084EE82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A91F2FBC20243D3A0084EE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91F2FBF20243D3A0084EE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91F2FC120243D3A0084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F2FC220243D3A0084EE82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A91F2FC820243D3A0084EE82 /* YTIMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTIMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F2FCC20243D3A0084EE82 /* YTIMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTIMDemoTests.m; sourceTree = "<group>"; };
+		A91F2FCE20243D3A0084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F2FD320243D3A0084EE82 /* YTIMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTIMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91F2FD720243D3A0084EE82 /* YTIMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTIMDemoUITests.m; sourceTree = "<group>"; };
+		A91F2FD920243D3A0084EE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91F2FE720243E4A0084EE82 /* qzone_mark_img_myvoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qzone_mark_img_myvoice@2x.png"; sourceTree = "<group>"; };
+		A91F2FE820243E4A0084EE82 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		A91F2FE920243E4A0084EE82 /* copyright_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copyright_img@2x.png"; sourceTree = "<group>"; };
+		A91F2FEA20243E4A0084EE82 /* gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray@2x.png"; sourceTree = "<group>"; };
+		A91F2FEB20243E4A0084EE82 /* srart_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = srart_bg.jpg; sourceTree = "<group>"; };
+		A91F2FEC20243E4A0084EE82 /* green_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_light@2x.png"; sourceTree = "<group>"; };
+		A91F2FED20243E4A0084EE82 /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
+		A91F2FEE20243E4A0084EE82 /* logo_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_img@2x.png"; sourceTree = "<group>"; };
+		A91F2FEF20243E4A0084EE82 /* dashed_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashed_line.png; sourceTree = "<group>"; };
+		A91F2FFB202442770084EE82 /* YTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTMainViewController.h; sourceTree = "<group>"; };
+		A91F2FFC202442770084EE82 /* YTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTMainViewController.m; sourceTree = "<group>"; };
+		A91F2FFE202443C10084EE82 /* YTBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTBaseViewController.h; sourceTree = "<group>"; };
+		A91F2FFF202443C10084EE82 /* YTBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTBaseViewController.m; sourceTree = "<group>"; };
+		A91F30012024452F0084EE82 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		A91F3003202459A60084EE82 /* UIViewController+YTHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YTHUD.h"; sourceTree = "<group>"; };
+		A91F3004202459A60084EE82 /* UIViewController+YTHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YTHUD.m"; sourceTree = "<group>"; };
+		A91F300920245B810084EE82 /* YTIMClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTIMClientManager.h; sourceTree = "<group>"; };
+		A91F300A20245B810084EE82 /* YTIMClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTIMClientManager.m; sourceTree = "<group>"; };
+		A91F301420245EA50084EE82 /* RMMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMapper.m; sourceTree = "<group>"; };
+		A91F301520245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+RMSaveCustomObject.h"; sourceTree = "<group>"; };
+		A91F301620245EA50084EE82 /* NSObject+RMArchivable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RMArchivable.h"; sourceTree = "<group>"; };
+		A91F301720245EA50084EE82 /* NSObject+RMCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RMCopyable.h"; sourceTree = "<group>"; };
+		A91F301820245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+RMSaveCustomObject.m"; sourceTree = "<group>"; };
+		A91F301920245EA50084EE82 /* RMMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapper.h; sourceTree = "<group>"; };
+		A91F301A20245EA50084EE82 /* NSObject+RMArchivable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RMArchivable.m"; sourceTree = "<group>"; };
+		A91F301B20245EA50084EE82 /* NSObject+RMCopyable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RMCopyable.m"; sourceTree = "<group>"; };
+		A91F301D20245EA50084EE82 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		A91F301E20245EA50084EE82 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A91F302020245EA50084EE82 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A91F302120245EA50084EE82 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A91F302820245ED40084EE82 /* YTConfigEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTConfigEntity.h; sourceTree = "<group>"; };
+		A91F302920245ED40084EE82 /* YTConfigEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTConfigEntity.m; sourceTree = "<group>"; };
+		A91F302B2024627D0084EE82 /* YTUDPUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTUDPUtils.h; sourceTree = "<group>"; };
+		A91F302C2024627D0084EE82 /* YTUDPUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTUDPUtils.m; sourceTree = "<group>"; };
+		A91F302E2024642A0084EE82 /* YTCharsetHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCharsetHelper.h; sourceTree = "<group>"; };
+		A91F302F2024642A0084EE82 /* YTCharsetHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTCharsetHelper.m; sourceTree = "<group>"; };
+		A91F3031202465210084EE82 /* YTToolKits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTToolKits.h; sourceTree = "<group>"; };
+		A91F3032202465210084EE82 /* YTToolKits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTToolKits.m; sourceTree = "<group>"; };
+		A91F303A202466C40084EE82 /* NSMutableDictionary+YTExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+YTExt.h"; sourceTree = "<group>"; };
+		A91F303B202466C40084EE82 /* NSMutableDictionary+YTExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YTExt.m"; sourceTree = "<group>"; };
+		A91F303D20246ACA0084EE82 /* YTChatBaseEventProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatBaseEventProtocol.h; sourceTree = "<group>"; };
+		A91F303E20246B330084EE82 /* YTChatTransDataEventProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatTransDataEventProtocol.h; sourceTree = "<group>"; };
+		A91F304220246D9C0084EE82 /* YTProtocalType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTProtocalType.h; sourceTree = "<group>"; };
+		A91F304320246DF40084EE82 /* YTCompletionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCompletionDefine.h; sourceTree = "<group>"; };
+		A91F304420246E120084EE82 /* YTErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTErrorCode.h; sourceTree = "<group>"; };
+		A91F304520246FB90084EE82 /* YTPLoginInfoResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPLoginInfoResponse.h; sourceTree = "<group>"; };
+		A91F304620246FB90084EE82 /* YTPLoginInfoResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPLoginInfoResponse.m; sourceTree = "<group>"; };
+		A91F3048202470020084EE82 /* YTPErrorResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPErrorResponse.h; sourceTree = "<group>"; };
+		A91F3049202470020084EE82 /* YTPErrorResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPErrorResponse.m; sourceTree = "<group>"; };
+		A91F304B202470680084EE82 /* YTPLoginInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPLoginInfo.h; sourceTree = "<group>"; };
+		A91F304C202470680084EE82 /* YTPLoginInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPLoginInfo.m; sourceTree = "<group>"; };
+		A91F304E202470930084EE82 /* YTProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTProtocal.h; sourceTree = "<group>"; };
+		A91F304F202470930084EE82 /* YTProtocal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTProtocal.m; sourceTree = "<group>"; };
+		A91F30512027F8780084EE82 /* YTProtocalFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTProtocalFactory.h; sourceTree = "<group>"; };
+		A91F30522027F8780084EE82 /* YTProtocalFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTProtocalFactory.m; sourceTree = "<group>"; };
+		A91F30542027FD030084EE82 /* YTLocalUDPSocketProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLocalUDPSocketProvider.h; sourceTree = "<group>"; };
+		A91F30552027FD030084EE82 /* YTLocalUDPSocketProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLocalUDPSocketProvider.m; sourceTree = "<group>"; };
+		A91F305720280A760084EE82 /* YTClientCoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTClientCoreSDK.h; sourceTree = "<group>"; };
+		A91F305820280A760084EE82 /* YTClientCoreSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTClientCoreSDK.m; sourceTree = "<group>"; };
+		A91F305A20280CE20084EE82 /* YTLocalUDPDataReciever.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLocalUDPDataReciever.h; sourceTree = "<group>"; };
+		A91F305B20280CE20084EE82 /* YTLocalUDPDataReciever.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLocalUDPDataReciever.m; sourceTree = "<group>"; };
+		A91F305D20282E240084EE82 /* YTAutoReLoginDaemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTAutoReLoginDaemon.h; sourceTree = "<group>"; };
+		A91F305E20282E240084EE82 /* YTAutoReLoginDaemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAutoReLoginDaemon.m; sourceTree = "<group>"; };
+		A91F306020282E840084EE82 /* YTLocalUDPDataSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLocalUDPDataSender.h; sourceTree = "<group>"; };
+		A91F306120282E840084EE82 /* YTLocalUDPDataSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLocalUDPDataSender.m; sourceTree = "<group>"; };
+		A91F3064202833E60084EE82 /* YTChatBaseEventImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatBaseEventImpl.h; sourceTree = "<group>"; };
+		A91F3065202833E60084EE82 /* YTChatBaseEventImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTChatBaseEventImpl.m; sourceTree = "<group>"; };
+		A91F30672028347A0084EE82 /* YTChatTransDataEventImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatTransDataEventImpl.h; sourceTree = "<group>"; };
+		A91F30682028347A0084EE82 /* YTChatTransDataEventImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTChatTransDataEventImpl.m; sourceTree = "<group>"; };
+		A91F306B202840170084EE82 /* YTLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTLoginViewController.h; sourceTree = "<group>"; };
+		A91F306C202840170084EE82 /* YTLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTLoginViewController.m; sourceTree = "<group>"; };
+		A91F306E20284B660084EE82 /* YTChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatModel.h; sourceTree = "<group>"; };
+		A91F306F20284B660084EE82 /* YTChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTChatModel.m; sourceTree = "<group>"; };
+		A91F307120284B8C0084EE82 /* YTChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTChatCell.h; sourceTree = "<group>"; };
+		A91F307220284B8C0084EE82 /* YTChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTChatCell.m; sourceTree = "<group>"; };
+		ECFF338080BFDCE5806511E3 /* libPods-YTIMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTIMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91F2FAD20243D3A0084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB19651552FECAE8F6E33F85 /* libPods-YTIMDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FC520243D3A0084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FD020243D3A0084EE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		744719F7EA7933EF98AFC0F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				241CDC77B9A1E7A504C01554 /* Pods-YTIMDemo.debug.xcconfig */,
+				78884D1F94EC816A2986682F /* Pods-YTIMDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A91F2FA720243D3A0084EE82 = {
+			isa = PBXGroup;
+			children = (
+				A91F2FB220243D3A0084EE82 /* YTIMDemo */,
+				A91F2FCB20243D3A0084EE82 /* YTIMDemoTests */,
+				A91F2FD620243D3A0084EE82 /* YTIMDemoUITests */,
+				A91F2FB120243D3A0084EE82 /* Products */,
+				744719F7EA7933EF98AFC0F1 /* Pods */,
+				E94F5566834D0B0BADE90979 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A91F2FB120243D3A0084EE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FB020243D3A0084EE82 /* YTIMDemo.app */,
+				A91F2FC820243D3A0084EE82 /* YTIMDemoTests.xctest */,
+				A91F2FD320243D3A0084EE82 /* YTIMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91F2FB220243D3A0084EE82 /* YTIMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FF120243E4A0084EE82 /* YTIMSDK */,
+				A91F2FF020243E4A0084EE82 /* YTIMDEMO */,
+				A91F2FB320243D3A0084EE82 /* AppDelegate.h */,
+				A91F2FB420243D3A0084EE82 /* AppDelegate.m */,
+				A91F2FBC20243D3A0084EE82 /* Assets.xcassets */,
+				A91F2FE520243E4A0084EE82 /* Resource */,
+				A91F2FBE20243D3A0084EE82 /* LaunchScreen.storyboard */,
+				A91F2FC120243D3A0084EE82 /* Info.plist */,
+				A91F2FC220243D3A0084EE82 /* main.m */,
+			);
+			path = YTIMDemo;
+			sourceTree = "<group>";
+		};
+		A91F2FCB20243D3A0084EE82 /* YTIMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FCC20243D3A0084EE82 /* YTIMDemoTests.m */,
+				A91F2FCE20243D3A0084EE82 /* Info.plist */,
+			);
+			path = YTIMDemoTests;
+			sourceTree = "<group>";
+		};
+		A91F2FD620243D3A0084EE82 /* YTIMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FD720243D3A0084EE82 /* YTIMDemoUITests.m */,
+				A91F2FD920243D3A0084EE82 /* Info.plist */,
+			);
+			path = YTIMDemoUITests;
+			sourceTree = "<group>";
+		};
+		A91F2FE520243E4A0084EE82 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FE620243E4A0084EE82 /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A91F2FE620243E4A0084EE82 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FE720243E4A0084EE82 /* qzone_mark_img_myvoice@2x.png */,
+				A91F2FE820243E4A0084EE82 /* info@2x.png */,
+				A91F2FE920243E4A0084EE82 /* copyright_img@2x.png */,
+				A91F2FEA20243E4A0084EE82 /* gray@2x.png */,
+				A91F2FEB20243E4A0084EE82 /* srart_bg.jpg */,
+				A91F2FEC20243E4A0084EE82 /* green_light@2x.png */,
+				A91F2FED20243E4A0084EE82 /* green@2x.png */,
+				A91F2FEE20243E4A0084EE82 /* logo_img@2x.png */,
+				A91F2FEF20243E4A0084EE82 /* dashed_line.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A91F2FF020243E4A0084EE82 /* YTIMDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				A91F300820245B740084EE82 /* IM */,
+				A91F306A20283FFD0084EE82 /* Login */,
+				A91F300720245AD50084EE82 /* Main */,
+				A91F3006202459CC0084EE82 /* Category */,
+				A91F3002202459A60084EE82 /* Common */,
+				A91F30012024452F0084EE82 /* AppMacro.h */,
+			);
+			path = YTIMDEMO;
+			sourceTree = "<group>";
+		};
+		A91F2FF120243E4A0084EE82 /* YTIMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A91F300C20245EA50084EE82 /* Core */,
+				A91F301220245EA50084EE82 /* Thirdpart */,
+			);
+			path = YTIMSDK;
+			sourceTree = "<group>";
+		};
+		A91F3002202459A60084EE82 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FFE202443C10084EE82 /* YTBaseViewController.h */,
+				A91F2FFF202443C10084EE82 /* YTBaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A91F3006202459CC0084EE82 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A91F3003202459A60084EE82 /* UIViewController+YTHUD.h */,
+				A91F3004202459A60084EE82 /* UIViewController+YTHUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A91F300720245AD50084EE82 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A91F2FFB202442770084EE82 /* YTMainViewController.h */,
+				A91F2FFC202442770084EE82 /* YTMainViewController.m */,
+				A91F306E20284B660084EE82 /* YTChatModel.h */,
+				A91F306F20284B660084EE82 /* YTChatModel.m */,
+				A91F307120284B8C0084EE82 /* YTChatCell.h */,
+				A91F307220284B8C0084EE82 /* YTChatCell.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A91F300820245B740084EE82 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				A91F3063202833C90084EE82 /* Event */,
+				A91F300920245B810084EE82 /* YTIMClientManager.h */,
+				A91F300A20245B810084EE82 /* YTIMClientManager.m */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		A91F300C20245EA50084EE82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A91F302820245ED40084EE82 /* YTConfigEntity.h */,
+				A91F302920245ED40084EE82 /* YTConfigEntity.m */,
+				A91F305720280A760084EE82 /* YTClientCoreSDK.h */,
+				A91F305820280A760084EE82 /* YTClientCoreSDK.m */,
+				A91F301120245EA50084EE82 /* Implementation */,
+				A91F300D20245EA50084EE82 /* Protocal */,
+				A91F300E20245EA50084EE82 /* Other */,
+				A91F300F20245EA50084EE82 /* Delegate */,
+				A91F301020245EA50084EE82 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A91F300D20245EA50084EE82 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				A91F304420246E120084EE82 /* YTErrorCode.h */,
+				A91F304220246D9C0084EE82 /* YTProtocalType.h */,
+				A91F304E202470930084EE82 /* YTProtocal.h */,
+				A91F304F202470930084EE82 /* YTProtocal.m */,
+				A91F30512027F8780084EE82 /* YTProtocalFactory.h */,
+				A91F30522027F8780084EE82 /* YTProtocalFactory.m */,
+				A91F304B202470680084EE82 /* YTPLoginInfo.h */,
+				A91F304C202470680084EE82 /* YTPLoginInfo.m */,
+				A91F304520246FB90084EE82 /* YTPLoginInfoResponse.h */,
+				A91F304620246FB90084EE82 /* YTPLoginInfoResponse.m */,
+				A91F3048202470020084EE82 /* YTPErrorResponse.h */,
+				A91F3049202470020084EE82 /* YTPErrorResponse.m */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		A91F300E20245EA50084EE82 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A91F304320246DF40084EE82 /* YTCompletionDefine.h */,
+				A91F303A202466C40084EE82 /* NSMutableDictionary+YTExt.h */,
+				A91F303B202466C40084EE82 /* NSMutableDictionary+YTExt.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A91F300F20245EA50084EE82 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A91F303D20246ACA0084EE82 /* YTChatBaseEventProtocol.h */,
+				A91F303E20246B330084EE82 /* YTChatTransDataEventProtocol.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A91F301020245EA50084EE82 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A91F302B2024627D0084EE82 /* YTUDPUtils.h */,
+				A91F302C2024627D0084EE82 /* YTUDPUtils.m */,
+				A91F302E2024642A0084EE82 /* YTCharsetHelper.h */,
+				A91F302F2024642A0084EE82 /* YTCharsetHelper.m */,
+				A91F3031202465210084EE82 /* YTToolKits.h */,
+				A91F3032202465210084EE82 /* YTToolKits.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A91F301120245EA50084EE82 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				A91F30542027FD030084EE82 /* YTLocalUDPSocketProvider.h */,
+				A91F30552027FD030084EE82 /* YTLocalUDPSocketProvider.m */,
+				A91F306020282E840084EE82 /* YTLocalUDPDataSender.h */,
+				A91F306120282E840084EE82 /* YTLocalUDPDataSender.m */,
+				A91F305A20280CE20084EE82 /* YTLocalUDPDataReciever.h */,
+				A91F305B20280CE20084EE82 /* YTLocalUDPDataReciever.m */,
+				A91F305D20282E240084EE82 /* YTAutoReLoginDaemon.h */,
+				A91F305E20282E240084EE82 /* YTAutoReLoginDaemon.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		A91F301220245EA50084EE82 /* Thirdpart */ = {
+			isa = PBXGroup;
+			children = (
+				A91F301320245EA50084EE82 /* RMMapper */,
+				A91F301C20245EA50084EE82 /* UDP */,
+				A91F301F20245EA50084EE82 /* Reachability */,
+			);
+			path = Thirdpart;
+			sourceTree = "<group>";
+		};
+		A91F301320245EA50084EE82 /* RMMapper */ = {
+			isa = PBXGroup;
+			children = (
+				A91F301420245EA50084EE82 /* RMMapper.m */,
+				A91F301520245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.h */,
+				A91F301620245EA50084EE82 /* NSObject+RMArchivable.h */,
+				A91F301720245EA50084EE82 /* NSObject+RMCopyable.h */,
+				A91F301820245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.m */,
+				A91F301920245EA50084EE82 /* RMMapper.h */,
+				A91F301A20245EA50084EE82 /* NSObject+RMArchivable.m */,
+				A91F301B20245EA50084EE82 /* NSObject+RMCopyable.m */,
+			);
+			path = RMMapper;
+			sourceTree = "<group>";
+		};
+		A91F301C20245EA50084EE82 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				A91F301D20245EA50084EE82 /* GCDAsyncUdpSocket.m */,
+				A91F301E20245EA50084EE82 /* GCDAsyncUdpSocket.h */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		A91F301F20245EA50084EE82 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A91F302020245EA50084EE82 /* Reachability.m */,
+				A91F302120245EA50084EE82 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A91F3063202833C90084EE82 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				A91F3064202833E60084EE82 /* YTChatBaseEventImpl.h */,
+				A91F3065202833E60084EE82 /* YTChatBaseEventImpl.m */,
+				A91F30672028347A0084EE82 /* YTChatTransDataEventImpl.h */,
+				A91F30682028347A0084EE82 /* YTChatTransDataEventImpl.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		A91F306A20283FFD0084EE82 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A91F306B202840170084EE82 /* YTLoginViewController.h */,
+				A91F306C202840170084EE82 /* YTLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E94F5566834D0B0BADE90979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF338080BFDCE5806511E3 /* libPods-YTIMDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91F2FAF20243D3A0084EE82 /* YTIMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F2FDC20243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemo" */;
+			buildPhases = (
+				D1587431538F38D7E113F8A0 /* [CP] Check Pods Manifest.lock */,
+				A91F2FAC20243D3A0084EE82 /* Sources */,
+				A91F2FAD20243D3A0084EE82 /* Frameworks */,
+				A91F2FAE20243D3A0084EE82 /* Resources */,
+				5A349008482337E8CC69532E /* [CP] Embed Pods Frameworks */,
+				0473BABFA4150DACFB18490F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTIMDemo;
+			productName = YTIMDemo;
+			productReference = A91F2FB020243D3A0084EE82 /* YTIMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91F2FC720243D3A0084EE82 /* YTIMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F2FDF20243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemoTests" */;
+			buildPhases = (
+				A91F2FC420243D3A0084EE82 /* Sources */,
+				A91F2FC520243D3A0084EE82 /* Frameworks */,
+				A91F2FC620243D3A0084EE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91F2FCA20243D3A0084EE82 /* PBXTargetDependency */,
+			);
+			name = YTIMDemoTests;
+			productName = YTIMDemoTests;
+			productReference = A91F2FC820243D3A0084EE82 /* YTIMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91F2FD220243D3A0084EE82 /* YTIMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91F2FE220243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemoUITests" */;
+			buildPhases = (
+				A91F2FCF20243D3A0084EE82 /* Sources */,
+				A91F2FD020243D3A0084EE82 /* Frameworks */,
+				A91F2FD120243D3A0084EE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91F2FD520243D3A0084EE82 /* PBXTargetDependency */,
+			);
+			name = YTIMDemoUITests;
+			productName = YTIMDemoUITests;
+			productReference = A91F2FD320243D3A0084EE82 /* YTIMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91F2FA820243D3A0084EE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YT;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanl;
+				TargetAttributes = {
+					A91F2FAF20243D3A0084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A91F2FC720243D3A0084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A91F2FAF20243D3A0084EE82;
+					};
+					A91F2FD220243D3A0084EE82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A91F2FAF20243D3A0084EE82;
+					};
+				};
+			};
+			buildConfigurationList = A91F2FAB20243D3A0084EE82 /* Build configuration list for PBXProject "YTIMDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91F2FA720243D3A0084EE82;
+			productRefGroup = A91F2FB120243D3A0084EE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91F2FAF20243D3A0084EE82 /* YTIMDemo */,
+				A91F2FC720243D3A0084EE82 /* YTIMDemoTests */,
+				A91F2FD220243D3A0084EE82 /* YTIMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91F2FAE20243D3A0084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F2FF420243E4A0084EE82 /* copyright_img@2x.png in Resources */,
+				A91F2FF220243E4A0084EE82 /* qzone_mark_img_myvoice@2x.png in Resources */,
+				A91F2FFA20243E4A0084EE82 /* dashed_line.png in Resources */,
+				A91F2FC020243D3A0084EE82 /* LaunchScreen.storyboard in Resources */,
+				A91F2FF520243E4A0084EE82 /* gray@2x.png in Resources */,
+				A91F2FF720243E4A0084EE82 /* green_light@2x.png in Resources */,
+				A91F2FF320243E4A0084EE82 /* info@2x.png in Resources */,
+				A91F2FF820243E4A0084EE82 /* green@2x.png in Resources */,
+				A91F2FBD20243D3A0084EE82 /* Assets.xcassets in Resources */,
+				A91F2FF920243E4A0084EE82 /* logo_img@2x.png in Resources */,
+				A91F2FF620243E4A0084EE82 /* srart_bg.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FC620243D3A0084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FD120243D3A0084EE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0473BABFA4150DACFB18490F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YTIMDemo/Pods-YTIMDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTIMDemo/Pods-YTIMDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A349008482337E8CC69532E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTIMDemo/Pods-YTIMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1587431538F38D7E113F8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTIMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91F2FAC20243D3A0084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F30302024642A0084EE82 /* YTCharsetHelper.m in Sources */,
+				A91F3000202443C10084EE82 /* YTBaseViewController.m in Sources */,
+				A91F303C202466C40084EE82 /* NSMutableDictionary+YTExt.m in Sources */,
+				A91F30532027F8780084EE82 /* YTProtocalFactory.m in Sources */,
+				A91F302620245EA50084EE82 /* GCDAsyncUdpSocket.m in Sources */,
+				A91F304720246FB90084EE82 /* YTPLoginInfoResponse.m in Sources */,
+				A91F302D2024627D0084EE82 /* YTUDPUtils.m in Sources */,
+				A91F306D202840170084EE82 /* YTLoginViewController.m in Sources */,
+				A91F302320245EA50084EE82 /* NSUserDefaults+RMSaveCustomObject.m in Sources */,
+				A91F302420245EA50084EE82 /* NSObject+RMArchivable.m in Sources */,
+				A91F300B20245B810084EE82 /* YTIMClientManager.m in Sources */,
+				A91F2FC320243D3A0084EE82 /* main.m in Sources */,
+				A91F305920280A760084EE82 /* YTClientCoreSDK.m in Sources */,
+				A91F3066202833E60084EE82 /* YTChatBaseEventImpl.m in Sources */,
+				A91F30692028347A0084EE82 /* YTChatTransDataEventImpl.m in Sources */,
+				A91F302220245EA50084EE82 /* RMMapper.m in Sources */,
+				A91F306220282E840084EE82 /* YTLocalUDPDataSender.m in Sources */,
+				A91F304D202470680084EE82 /* YTPLoginInfo.m in Sources */,
+				A91F305F20282E240084EE82 /* YTAutoReLoginDaemon.m in Sources */,
+				A91F2FFD202442770084EE82 /* YTMainViewController.m in Sources */,
+				A91F307320284B8C0084EE82 /* YTChatCell.m in Sources */,
+				A91F304A202470020084EE82 /* YTPErrorResponse.m in Sources */,
+				A91F3050202470930084EE82 /* YTProtocal.m in Sources */,
+				A91F305C20280CE20084EE82 /* YTLocalUDPDataReciever.m in Sources */,
+				A91F302520245EA50084EE82 /* NSObject+RMCopyable.m in Sources */,
+				A91F3005202459A60084EE82 /* UIViewController+YTHUD.m in Sources */,
+				A91F302720245EA50084EE82 /* Reachability.m in Sources */,
+				A91F3033202465210084EE82 /* YTToolKits.m in Sources */,
+				A91F30562027FD030084EE82 /* YTLocalUDPSocketProvider.m in Sources */,
+				A91F307020284B660084EE82 /* YTChatModel.m in Sources */,
+				A91F2FB520243D3A0084EE82 /* AppDelegate.m in Sources */,
+				A91F302A20245ED40084EE82 /* YTConfigEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FC420243D3A0084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F2FCD20243D3A0084EE82 /* YTIMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91F2FCF20243D3A0084EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91F2FD820243D3A0084EE82 /* YTIMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91F2FCA20243D3A0084EE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91F2FAF20243D3A0084EE82 /* YTIMDemo */;
+			targetProxy = A91F2FC920243D3A0084EE82 /* PBXContainerItemProxy */;
+		};
+		A91F2FD520243D3A0084EE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91F2FAF20243D3A0084EE82 /* YTIMDemo */;
+			targetProxy = A91F2FD420243D3A0084EE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A91F2FBE20243D3A0084EE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91F2FBF20243D3A0084EE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91F2FDA20243D3A0084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A91F2FDB20243D3A0084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91F2FDD20243D3A0084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241CDC77B9A1E7A504C01554 /* Pods-YTIMDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A91F2FDE20243D3A0084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78884D1F94EC816A2986682F /* Pods-YTIMDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A91F2FE020243D3A0084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTIMDemo.app/YTIMDemo";
+			};
+			name = Debug;
+		};
+		A91F2FE120243D3A0084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTIMDemo.app/YTIMDemo";
+			};
+			name = Release;
+		};
+		A91F2FE320243D3A0084EE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTIMDemo;
+			};
+			name = Debug;
+		};
+		A91F2FE420243D3A0084EE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YTIMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.langyan.hbfs.YTIMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTIMDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91F2FAB20243D3A0084EE82 /* Build configuration list for PBXProject "YTIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F2FDA20243D3A0084EE82 /* Debug */,
+				A91F2FDB20243D3A0084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F2FDC20243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F2FDD20243D3A0084EE82 /* Debug */,
+				A91F2FDE20243D3A0084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F2FDF20243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F2FE020243D3A0084EE82 /* Debug */,
+				A91F2FE120243D3A0084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91F2FE220243D3A0084EE82 /* Build configuration list for PBXNativeTarget "YTIMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91F2FE320243D3A0084EE82 /* Debug */,
+				A91F2FE420243D3A0084EE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91F2FA820243D3A0084EE82 /* Project object */;
+}
